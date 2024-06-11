@@ -74,8 +74,6 @@ st.title("Prediksi Konsumsi Fresh Water untuk KM ASJ")
 rute = st.selectbox(
     "Pilih rute perjalanan kapal:",
     (route_list),
-    index=1,
-    placeholder="Masukkan rute perjalanan",
 )
 
 avg_velo = st.number_input(
