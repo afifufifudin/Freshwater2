@@ -124,7 +124,7 @@ if st.button("Make Prediction", type="primary"):
             "Estimasi durasi bongkar muat: (dalam Jam)", min_value=0.0, value=16.0
         )
         st.warning(
-            "Fitur masih dalam tahap pengembangan, data yang disajikan adalah dummy, prediksi belum dapat ditampilkan"
+            "Fitur masih dalam tahap pengembangan dan penyempurnaan, prediksi belum dapat ditampilkan"
         )
         container.write("Jumlah freshwater yag dibutuhkan")
         container.code("---- liter", language="markdown")
