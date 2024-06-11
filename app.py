@@ -109,8 +109,6 @@ if st.button("Make Prediction", type="primary"):
         bongkar_time = container.number_input(
             "Estimasi durasi bongkar muat: (dalam Jam)", min_value=0.0, value=16.0
         )
-        st.danger(
-            "Fitur masih dalam tahap pengembangan, prediksi belum dapat ditampilkan"
-        )
+        st.warning("Untuk fitur prediksi at port masih dalam tahap pengembangan sehingga belum bisa menampilkan hasil")
         container.write("Jumlah freshwater yang dibutuhkan:")
         container.code("---- liter", language="markdown")
